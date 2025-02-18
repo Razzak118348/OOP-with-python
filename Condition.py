@@ -9,14 +9,15 @@ elif a == 5:
 else:
     print(f"{a} number is less than 5")
 
-name = False
-if name is not True:
-    print('name is not True')
-    #nested if else
-    if 8%2 == 0:
-        print('8 is even')
-    else:
-        print('8 is odd')
 
+
+age = int(input("Enter your age: "))
+
+if age <= 12:
+    print("Child.")
+elif age <= 19:
+    print("Teenager.")
+elif age <= 35:
+    print("Young adult.")
 else:
-    print('name is True')
+    print("Adult.")
