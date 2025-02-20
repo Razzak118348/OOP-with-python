@@ -9,8 +9,8 @@ print(n(5))
 print(n(-3))
 print(n(0))
 
-
 s1 = 'GeeksforGeeks'
 
 s2 = lambda variable: variable.upper()
 print(s2(s1))
+
